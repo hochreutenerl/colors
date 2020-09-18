@@ -14,5 +14,12 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return 'Please have a look at the readme.md file to find out how to use this project';
 });
+
+/*
+ * Routes for managing a color
+ */
+$router->get('/colors', 'ColorController@index');
+$router->post('/colors', 'ColorController@store');
+$router->delete('/colors/{colorId}', 'ColorController@destroy');

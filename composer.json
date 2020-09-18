@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "hochreutenerl/colors",
+    "description": "Color scheme storage for frontify.",
+    "keywords": ["color", "scheme", "storage"],
     "license": "MIT",
     "type": "project",
     "require": {
